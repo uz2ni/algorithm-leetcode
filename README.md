@@ -27,6 +27,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/uz2ni/algorithm-leetcode/tree/master/0125-valid-palindrome) |
 | [0143-reorder-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0143-reorder-list) |
 ## Stack
 |  |
@@ -44,6 +45,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/uz2ni/algorithm-leetcode/tree/master/0125-valid-palindrome) |
 ## Sorting
 |  |
 | ------- |
