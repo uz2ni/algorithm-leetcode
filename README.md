@@ -43,6 +43,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
@@ -78,4 +79,8 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/uz2ni/algorithm-leetcode/tree/master/0155-min-stack) |
+## Binary Search
+|  |
+| ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
