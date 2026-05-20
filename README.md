@@ -34,6 +34,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0143-reorder-list) |
+| [0155-min-stack](https://github.com/uz2ni/algorithm-leetcode/tree/master/0155-min-stack) |
 ## Recursion
 |  |
 | ------- |
@@ -73,4 +74,8 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/uz2ni/algorithm-leetcode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
