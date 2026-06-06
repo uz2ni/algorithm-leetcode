@@ -42,6 +42,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -83,4 +84,8 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
