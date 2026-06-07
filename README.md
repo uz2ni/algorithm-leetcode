@@ -12,6 +12,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 | [0133-clone-graph](https://github.com/uz2ni/algorithm-leetcode/tree/master/0133-clone-graph) |
 ## Breadth-First Search
 |  |
@@ -44,12 +45,14 @@ leetcode 알고리즘 풀이 공간 🌟
 | ------- |
 | [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
 ## String
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
+| [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/uz2ni/algorithm-leetcode/tree/master/0125-valid-palindrome) |
 ## Sorting
 |  |
@@ -88,4 +91,9 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
+| [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
