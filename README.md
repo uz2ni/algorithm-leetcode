@@ -25,10 +25,12 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0143-reorder-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0143-reorder-list) |
 ## Two Pointers
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0125-valid-palindrome](https://github.com/uz2ni/algorithm-leetcode/tree/master/0125-valid-palindrome) |
 | [0143-reorder-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0143-reorder-list) |
 ## Stack
