@@ -6,6 +6,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/uz2ni/algorithm-leetcode/tree/master/0133-clone-graph) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -48,6 +49,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0001-two-sum) |
 | [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
