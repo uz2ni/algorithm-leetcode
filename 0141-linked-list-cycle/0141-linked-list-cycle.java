@@ -15,7 +15,7 @@ public class Solution {
         ListNode pointer = head;
         // hashset 에 노드 주소값을 담아두고 판단
         Set<ListNode> set = new HashSet<>();
-        while(pointer != null && pointer.next != null) {
+        while(pointer != null) {
             // set에 존재하면 순환 있다고 판단, 리턴 true
             if(set.contains(pointer)) {
                 return true;
