@@ -1,27 +1,28 @@
 /**
  * Definition for singly-linked list.
- * public class ListNode {
+ * class ListNode {
  *     int val;
  *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
  * }
  */
-
-class Solution {
+public class Solution {
+    // 순환 구조 있는지 true/false 판단
     public boolean hasCycle(ListNode head) {
-        ListNode now = head;
-        Set<ListNode> visited = new HashSet<>();
-        while(true) {
-            if(now == null) {
-              return false;  
-            }else if(visited.contains(now)){
+        ListNode pointer = head;
+        // hashset 에 노드 주소값을 담아두고 판단
+        Set<ListNode> set = new HashSet<>();
+        while(pointer != null && pointer.next != null) {
+            // set에 존재하면 순환 있다고 판단, 리턴 true
+            if(set.contains(pointer)) {
                 return true;
-            }else {
-                visited.add(now);
-                now = now.next;
             }
+            set.add(pointer);
+            pointer = pointer.next;
         }
+        return false;
     }
 }
