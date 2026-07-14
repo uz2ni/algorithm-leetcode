@@ -11,6 +11,8 @@
  */
 public class Solution {
     // 순환 구조 있는지 true/false 판단
+
+    // hashset 사용 시간,공간 복잡도 O(N)
     public boolean hasCycle2(ListNode head) {
         ListNode pointer = head;
         // hashset 에 노드 주소값을 담아두고 판단
@@ -26,6 +28,8 @@ public class Solution {
         return false;
     }
 
+    // 플로이드 알고리즘 (slow,fast 투포인터 사용)
+    // 시간복잡도 O(N), 공간복잡도 O(1)
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
