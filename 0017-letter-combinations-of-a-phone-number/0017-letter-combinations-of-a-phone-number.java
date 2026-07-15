@@ -1,12 +1,6 @@
 class Solution {
     public List<String> answerList;
-    public List<String> letterCombinations(String digits) {
-
-        if(digits.length()==0) return new ArrayList<>();
-
-        answerList = new ArrayList<>();
-
-        char[][] letters = {
+    public char[][] letters = {
                             {},
                             {},
                             {'a','b','c'},
@@ -17,26 +11,30 @@ class Solution {
                             {'p','q','r','s'},
                             {'t','u','v'},
                             {'w','x','y','z'}
-                         };
-        
-        char[] nums = digits.toCharArray();
+                         };    
 
-        recursive(digits, letters, "");
+    public List<String> letterCombinations(String digits) {
+
+        if(digits.length()==0) return new ArrayList<>();
+
+        answerList = new ArrayList<>();
+
+        backtrack(digits, "");
 
         return answerList;
     }
 
-    public void recursive(String digits, char[][] letters, String str) {
-        int length = str.length();
-        if(digits.length() == length) {
+    public void backtrack(String digits, String str) {
+        int index = str.length();
+        if(digits.length() == index) {
             answerList.add(str);
             return;
         }
 
-        int n = digits.charAt(length) - '0';
+        int n = digits.charAt(index) - '0';
 
         for(char c : letters[n]) {
-            recursive(digits, letters, str+c);
+            backtrack(digits, str+c);
         }
     }
 }
