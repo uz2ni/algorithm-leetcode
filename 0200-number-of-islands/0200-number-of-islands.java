@@ -1,3 +1,4 @@
+// 풀이 시간 : 20m
 class Solution {
     public int cnt;
     public int[] dx = {-1,1,0,0};
