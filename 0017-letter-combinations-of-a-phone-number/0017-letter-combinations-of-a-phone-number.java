@@ -21,22 +21,22 @@ class Solution {
         
         char[] nums = digits.toCharArray();
 
-        recursive(nums, letters, 0, "");
+        recursive(digits, letters, "");
 
         return answerList;
     }
 
-    public void recursive(char[] nums, char[][] letters, int depth, String str) {
-
-        if(nums.length == depth) {
+    public void recursive(String digits, char[][] letters, String str) {
+        int length = str.length();
+        if(digits.length() == length) {
             answerList.add(str);
             return;
         }
 
-        int n = nums[depth] - '0';
+        int n = digits.charAt(length) - '0';
 
         for(char c : letters[n]) {
-            recursive(nums, letters, depth+1, str+c);
+            recursive(digits, letters, str+c);
         }
     }
 }
