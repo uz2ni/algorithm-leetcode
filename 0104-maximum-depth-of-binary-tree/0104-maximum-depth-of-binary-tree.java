@@ -13,20 +13,38 @@
  *     }
  * }
  */
-
 class Solution {
     public int maxDepth(TreeNode root) {
-        // null 닿을때까지 탐색. null 만나면 현재까지 길이 리턴
-        return recursion(root, 0);
+        return dfs(root, 0);
     }
 
-    public int recursion(TreeNode root, int length) {
-        if(root == null) return length;
+    // 정답, 코드 복잡
+    public int dfs1(TreeNode curNode, int depth) {
+        if(curNode == null) return 0;
+        if((curNode.left == null) && (curNode.right == null)) {
+            return depth;
+        }
+        int leftDepth = depth;
+        int rightDepth = depth;
 
-        int leftDepth = recursion(root.left, length+1);
-        int rightDepth = recursion(root.right, length+1);
+        if((curNode.left != null) && (curNode.right != null)) {
+            rightDepth = dfs(curNode.right, depth+1);
+            leftDepth = dfs(curNode.left, depth+1);
+            return Math.max(rightDepth, leftDepth);
+        }
 
-        return Math.max(leftDepth, rightDepth);
+        if(curNode.left == null) {
+            return dfs(curNode.right, depth+1);
+        } 
+        if(curNode.right == null) {
+            return dfs(curNode.left, depth+1);
+        }     
 
+        return depth;
     }
+
+    public int dfs(TreeNode curNode, int depth) {
+        if(curNode == null) return depth;
+        return Math.max(dfs(curNode.left,depth+1), dfs(curNode.right,depth+1));
+    }    
 }
