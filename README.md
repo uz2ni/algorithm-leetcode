@@ -63,6 +63,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0001-two-sum) |
+| [0035-search-insert-position](https://github.com/uz2ni/algorithm-leetcode/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
@@ -115,6 +116,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/uz2ni/algorithm-leetcode/tree/master/0035-search-insert-position) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/uz2ni/algorithm-leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0209-minimum-size-subarray-sum) |
