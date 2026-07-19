@@ -1,21 +1,24 @@
 class Solution {
     public int findMin(int[] nums) {
 
-        // 중앙값 찾으면서 줄여나가기
-        // 중앙값 기준 왼쪽이 작으면 왼쪽 구간 탐색, 오른쪽이 작으면 오른쪽 구간 탐색
-        int left = 0;
-        int right = nums.length-1;
+        if(nums.length == 1) return nums[0];
 
-        while(left < right) {
-            int mid = ((right-left)/2)+left;
-
-            if(nums[mid] > nums[right]) {
-                left = mid+1;
-            }else {
-                right = mid;
-            }
+        int left = (nums.length/2)-1;
+        int right = left+1;
+        for(int i=right; i<nums.length; i++) {
+            if(nums[left] > nums[i]) return nums[i];
         }
 
-        return nums[left];
+        if(left == 0) return nums[0];
+
+        right = left;
+        left = left-1;
+        
+        while(left >= 0) {
+            if(nums[left] > nums[right]) return nums[left+1];
+            left--;
+        }
+        
+        return nums[0];
     }
 }
