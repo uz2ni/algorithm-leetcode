@@ -158,4 +158,16 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0209-minimum-size-subarray-sum) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/uz2ni/algorithm-leetcode/tree/master/0070-climbing-stairs) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/uz2ni/algorithm-leetcode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/uz2ni/algorithm-leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
