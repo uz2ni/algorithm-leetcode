@@ -79,6 +79,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/uz2ni/algorithm-leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/uz2ni/algorithm-leetcode/tree/master/0125-valid-palindrome) |
@@ -126,6 +127,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/uz2ni/algorithm-leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/uz2ni/algorithm-leetcode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/uz2ni/algorithm-leetcode/tree/master/0077-combinations) |
@@ -168,6 +170,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/uz2ni/algorithm-leetcode/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/uz2ni/algorithm-leetcode/tree/master/0198-house-robber) |
 ## Memoization
