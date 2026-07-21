@@ -1,30 +1,31 @@
 class Solution {
-    public static List<List<Integer>> resultList = new ArrayList<>();
-    public List<List<Integer>> combinationSum(int[] nums, int target) {
-        // 모든 조합으로 target가 되는 수 찾기
-        // 재귀. n개 중에 n개 조합 (중복 O)
-        // basecase: 합산이 target 초과이거나(답에 미포함), 선택된 수 합산 target 이거나(답에 포함)
-        // 선택된 리스트 목록 리턴
-        List<List<Integer>> results = dfs(nums, target, 0, 0, new ArrayList<>());
-        System.out.println(results.toString());
-        return results;
+    public List<List<Integer>> answers;
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        answers = new ArrayList<>();
+        // 선택 조합이 target 이 되는 모든 조합 리스트 반환
+        // 조합, start 존재, 현재까지 sum
+        boolean[] visited = new boolean[candidates.length];
+        dfs(candidates, target, 0, 0, new ArrayList<>());
+        return answers;
     }
 
-    public List<List<Integer>> dfs(int[] nums, int target, int sum, int start, List<Integer> list) {
-        List<List<Integer>> totalList = new ArrayList<>();
-        if(target < sum) {
-           return totalList; 
+    public void dfs(int[] cd, int target, int start, int sum, List<Integer> list) {
+        // basescase
+        if(sum == target) {
+            answers.add(new ArrayList<>(list));
+            return;
         }
-        if(target == sum) {
-            totalList.add(new ArrayList<>(list));
-            return totalList;
+        if(sum > target) {
+            return;
         }
 
-        for(int i=start; i<nums.length; i++) {
-            list.add(nums[i]);
-            totalList.addAll(dfs(nums, target, sum+nums[i], i,list));
+        for(int i=start; i<cd.length; i++) {
+            list.add(cd[i]);
+
+            dfs(cd, target, i, sum+cd[i], list); // i 왜 현재 숫자부터 보는거지??
+
             list.remove(list.size()-1);
         }
-        return totalList;
     }
+    
 }
