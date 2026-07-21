@@ -65,6 +65,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0001-two-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0001-two-sum) |
 | [0035-search-insert-position](https://github.com/uz2ni/algorithm-leetcode/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/uz2ni/algorithm-leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -126,6 +127,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/uz2ni/algorithm-leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
+| [0046-permutations](https://github.com/uz2ni/algorithm-leetcode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/uz2ni/algorithm-leetcode/tree/master/0077-combinations) |
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 ## Matrix
