@@ -11,12 +11,10 @@ class Solution {
             else if(s.charAt(i) == '[') stack.push(']');
             else {
                 if(stack.isEmpty()) return false;
-                if(s.charAt(i) != stack.peek()) return false;
-                stack.pop();
+                if(s.charAt(i) != stack.pop()) return false;
             }
         }
 
-        if(!stack.isEmpty()) return false;
-        return true;
+        return stack.isEmpty();
     }
 }
