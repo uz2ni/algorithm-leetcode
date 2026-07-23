@@ -52,6 +52,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/uz2ni/algorithm-leetcode/tree/master/0155-min-stack) |
 ## Recursion
@@ -79,6 +80,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/uz2ni/algorithm-leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
