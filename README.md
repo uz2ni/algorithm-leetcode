@@ -53,6 +53,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0020-valid-parentheses) |
+| [0071-simplify-path](https://github.com/uz2ni/algorithm-leetcode/tree/master/0071-simplify-path) |
 | [0143-reorder-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/uz2ni/algorithm-leetcode/tree/master/0155-min-stack) |
 ## Recursion
@@ -83,6 +84,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0020-valid-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
+| [0071-simplify-path](https://github.com/uz2ni/algorithm-leetcode/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/uz2ni/algorithm-leetcode/tree/master/0125-valid-palindrome) |
 ## Sorting
