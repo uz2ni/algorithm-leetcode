@@ -1,18 +1,19 @@
 class MinStack {
-    
-    Stack<int[]> stack;
+
+    Deque<int[]> stack; // value, min
 
     public MinStack() {
-        stack = new Stack<>();
+        stack = new ArrayDeque<>();
     }
     
-    public void push(int val) {
+    public void push(int value) {
+        int min;
         if(stack.isEmpty()) {
-            stack.push(new int[]{val,val});
+            min = value;
         }else {
-            int[] s = stack.peek();
-            stack.push(new int[]{val, Math.min(s[1], val)});
+            min = Math.min(stack.peek()[1], value);
         }
+        stack.push(new int[]{value, min});
     }
     
     public void pop() {
@@ -27,3 +28,12 @@ class MinStack {
         return stack.peek()[1];
     }
 }
+
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack obj = new MinStack();
+ * obj.push(value);
+ * obj.pop();
+ * int param_3 = obj.top();
+ * int param_4 = obj.getMin();
+ */
