@@ -69,6 +69,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/uz2ni/algorithm-leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
+| [0078-subsets](https://github.com/uz2ni/algorithm-leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/uz2ni/algorithm-leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -136,6 +137,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/uz2ni/algorithm-leetcode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/uz2ni/algorithm-leetcode/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/uz2ni/algorithm-leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 ## Matrix
 |  |
@@ -182,4 +184,8 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/uz2ni/algorithm-leetcode/tree/master/0070-climbing-stairs) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/uz2ni/algorithm-leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
