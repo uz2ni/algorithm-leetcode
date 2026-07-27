@@ -51,6 +51,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0141-linked-list-cycle](https://github.com/uz2ni/algorithm-leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0143-reorder-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/uz2ni/algorithm-leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0189-rotate-array) |
 ## Stack
 |  |
 | ------- |
@@ -77,6 +78,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/uz2ni/algorithm-leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/uz2ni/algorithm-leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/uz2ni/algorithm-leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0209-minimum-size-subarray-sum) |
@@ -179,6 +181,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/uz2ni/algorithm-leetcode/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0189-rotate-array) |
 ## Dynamic Programming
 |  |
 | ------- |
