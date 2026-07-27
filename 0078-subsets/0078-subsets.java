@@ -10,7 +10,7 @@ class Solution {
     public void dfs(int[] nums, int start, List<Integer> list) {
         answers.add(new ArrayList<>(list));
 
-        if(nums.length == start) return;
+        // if(nums.length == start) return;
 
         for(int i=start; i<nums.length; i++) {
             list.add(nums[i]);
