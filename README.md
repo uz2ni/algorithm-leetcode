@@ -90,6 +90,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## String
 |  |
 | ------- |
+| [0006-zigzag-conversion](https://github.com/uz2ni/algorithm-leetcode/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/uz2ni/algorithm-leetcode/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/uz2ni/algorithm-leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0020-valid-parentheses) |
