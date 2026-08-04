@@ -13,6 +13,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0133-clone-graph](https://github.com/uz2ni/algorithm-leetcode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/uz2ni/algorithm-leetcode/tree/master/0141-linked-list-cycle) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0433-minimum-genetic-mutation](https://github.com/uz2ni/algorithm-leetcode/tree/master/0433-minimum-genetic-mutation) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -30,6 +31,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0199-binary-tree-right-side-view](https://github.com/uz2ni/algorithm-leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/uz2ni/algorithm-leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/uz2ni/algorithm-leetcode/tree/master/0207-course-schedule) |
+| [0433-minimum-genetic-mutation](https://github.com/uz2ni/algorithm-leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0909-snakes-and-ladders](https://github.com/uz2ni/algorithm-leetcode/tree/master/0909-snakes-and-ladders) |
 ## Graph Theory
 |  |
@@ -102,6 +104,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/uz2ni/algorithm-leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/uz2ni/algorithm-leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0433-minimum-genetic-mutation](https://github.com/uz2ni/algorithm-leetcode/tree/master/0433-minimum-genetic-mutation) |
 ## Sorting
 |  |
 | ------- |
@@ -209,4 +212,8 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/uz2ni/algorithm-leetcode/tree/master/0011-container-with-most-water) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0433-minimum-genetic-mutation](https://github.com/uz2ni/algorithm-leetcode/tree/master/0433-minimum-genetic-mutation) |
 <!---LeetCode Topics End-->
