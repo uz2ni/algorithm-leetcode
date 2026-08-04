@@ -20,7 +20,7 @@ class Solution {
                 int nxtNum = cur[0] + i;
                 int nxtCnt = cur[1] + 1;
 
-                if (nxtNum > n * n) continue;
+                // if (nxtNum > n * n) continue;
 
                 // 뱀/사다리 있으면 먼저 목적지로 치환 (여기서 최종 도착 번호 확정)
                 int[] cord = numToXy(n, nxtNum);
