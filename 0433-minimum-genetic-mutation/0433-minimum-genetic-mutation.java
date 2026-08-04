@@ -35,15 +35,13 @@ class Solution {
                             // 변환한 문자열이 은행에 존재하면 큐에 삽입, visited 처리 
                             char temp = arr[a];
                             arr[a] = chs[b]; // 변환
-                            
                             String newStr = new String(arr);
+                            arr[a] = temp; // 되돌리기
 
                             if(visited.contains(newStr) || !bankSet.contains(newStr)) continue;
-                            
-                            q.offer(newStr);
-                            visited.add(newStr);
 
-                            arr[a] = temp; // 되돌리기
+                            q.offer(newStr);
+                            visited.add(newStr);                            
                         }
                     }
                 }
