@@ -1,5 +1,5 @@
 /*
-Definition for a Node.
+// Definition for a Node.
 class Node {
     public int val;
     public List<Node> neighbors;
@@ -20,28 +20,33 @@ class Node {
 
 class Solution {
     public Node cloneGraph(Node node) {
-        if (node == null) return null;
 
-        Map<Node, Node> map = new HashMap<>(); // old, new
-        Queue<Node> queue = new ArrayDeque<>();
+        if(node == null) return null;
 
-        Node startClone = new Node(node.val);
-        map.put(node, startClone);
-        queue.add(node); // old
+        Map<Node, Node> visited = new HashMap<>(); // 원본->복제본 매핑
 
-        while (!queue.isEmpty()) {
-            Node cur = queue.poll();
+        Node newNode = new Node(node.val);
+        visited.put(node, newNode);
 
-            for (Node nei : cur.neighbors) {
-                if (!map.containsKey(nei)) {
-                    map.put(nei, new Node(nei.val));
-                    queue.add(nei);
+        Queue<Node> q = new ArrayDeque<>();
+        q.offer(node);
+        
+        while(!q.isEmpty()) {
+            Node cur = q.poll();
+
+            for(Node n : cur.neighbors) {
+                if(!visited.containsKey(n)) {
+                    // 복제 안된 노드라면 복제본 생성, 방문 처리, 큐 삽입
+                    visited.put(n, new Node(n.val));
+                    q.offer(n);
                 }
+                // 원본의 이웃관계를 복제본에도 연결
+                visited.get(cur).neighbors.add(visited.get(n));
 
-                map.get(cur).neighbors.add(map.get(nei));
             }
         }
 
-        return startClone;
+        return newNode;
+        
     }
 }
