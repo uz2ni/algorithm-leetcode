@@ -23,6 +23,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0199-binary-tree-right-side-view](https://github.com/uz2ni/algorithm-leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/uz2ni/algorithm-leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/uz2ni/algorithm-leetcode/tree/master/0207-course-schedule) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/uz2ni/algorithm-leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -175,11 +176,13 @@ leetcode 알고리즘 풀이 공간 🌟
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/uz2ni/algorithm-leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/uz2ni/algorithm-leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/uz2ni/algorithm-leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 ## Binary Tree
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/uz2ni/algorithm-leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/uz2ni/algorithm-leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/uz2ni/algorithm-leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 ## Sliding Window
 |  |
 | ------- |
@@ -216,4 +219,8 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0433-minimum-genetic-mutation](https://github.com/uz2ni/algorithm-leetcode/tree/master/0433-minimum-genetic-mutation) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/uz2ni/algorithm-leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 <!---LeetCode Topics End-->
