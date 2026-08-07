@@ -53,6 +53,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0011-container-with-most-water](https://github.com/uz2ni/algorithm-leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/uz2ni/algorithm-leetcode/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/uz2ni/algorithm-leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0143-reorder-list) |
@@ -77,6 +78,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0001-two-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/uz2ni/algorithm-leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0035-search-insert-position](https://github.com/uz2ni/algorithm-leetcode/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/uz2ni/algorithm-leetcode/tree/master/0046-permutations) |
