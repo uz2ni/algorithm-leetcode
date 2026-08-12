@@ -51,6 +51,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/uz2ni/algorithm-leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/uz2ni/algorithm-leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
@@ -104,6 +105,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/uz2ni/algorithm-leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/uz2ni/algorithm-leetcode/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/uz2ni/algorithm-leetcode/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/uz2ni/algorithm-leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
@@ -213,6 +215,7 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/uz2ni/algorithm-leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0022-generate-parentheses) |
 | [0055-jump-game](https://github.com/uz2ni/algorithm-leetcode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/uz2ni/algorithm-leetcode/tree/master/0070-climbing-stairs) |
@@ -259,4 +262,8 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/uz2ni/algorithm-leetcode/tree/master/0300-longest-increasing-subsequence) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/uz2ni/algorithm-leetcode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
