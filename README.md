@@ -212,6 +212,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/uz2ni/algorithm-leetcode/tree/master/0012-integer-to-roman) |
+| [0062-unique-paths](https://github.com/uz2ni/algorithm-leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/uz2ni/algorithm-leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0189-rotate-array) |
 ## Dynamic Programming
@@ -221,6 +222,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0022-generate-parentheses](https://github.com/uz2ni/algorithm-leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/uz2ni/algorithm-leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/uz2ni/algorithm-leetcode/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/uz2ni/algorithm-leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/uz2ni/algorithm-leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/uz2ni/algorithm-leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -269,4 +271,8 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/uz2ni/algorithm-leetcode/tree/master/0005-longest-palindromic-substring) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/uz2ni/algorithm-leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
