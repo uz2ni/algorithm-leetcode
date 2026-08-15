@@ -26,6 +26,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0200-number-of-islands](https://github.com/uz2ni/algorithm-leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/uz2ni/algorithm-leetcode/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/uz2ni/algorithm-leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0695-max-area-of-island](https://github.com/uz2ni/algorithm-leetcode/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -37,6 +38,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0207-course-schedule](https://github.com/uz2ni/algorithm-leetcode/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/uz2ni/algorithm-leetcode/tree/master/0322-coin-change) |
 | [0433-minimum-genetic-mutation](https://github.com/uz2ni/algorithm-leetcode/tree/master/0433-minimum-genetic-mutation) |
+| [0695-max-area-of-island](https://github.com/uz2ni/algorithm-leetcode/tree/master/0695-max-area-of-island) |
 | [0909-snakes-and-ladders](https://github.com/uz2ni/algorithm-leetcode/tree/master/0909-snakes-and-ladders) |
 ## Graph Theory
 |  |
@@ -106,6 +108,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0300-longest-increasing-subsequence](https://github.com/uz2ni/algorithm-leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/uz2ni/algorithm-leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0695-max-area-of-island](https://github.com/uz2ni/algorithm-leetcode/tree/master/0695-max-area-of-island) |
 | [0909-snakes-and-ladders](https://github.com/uz2ni/algorithm-leetcode/tree/master/0909-snakes-and-ladders) |
 ## String
 |  |
@@ -184,6 +187,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/uz2ni/algorithm-leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/uz2ni/algorithm-leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/uz2ni/algorithm-leetcode/tree/master/0695-max-area-of-island) |
 | [0909-snakes-and-ladders](https://github.com/uz2ni/algorithm-leetcode/tree/master/0909-snakes-and-ladders) |
 ## Topological Sort
 |  |
@@ -194,6 +198,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | ------- |
 | [0130-surrounded-regions](https://github.com/uz2ni/algorithm-leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/uz2ni/algorithm-leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/uz2ni/algorithm-leetcode/tree/master/0695-max-area-of-island) |
 ## Tree
 |  |
 | ------- |
