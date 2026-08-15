@@ -1,6 +1,5 @@
 // 섬의 최대 면적
 class Solution {
-    public int maxArea = 0;
     int[] dx = {1,-1,0,0};
     int[] dy = {0,0,1,-1};
     public int maxAreaOfIsland(int[][] grid) {
@@ -10,7 +9,9 @@ class Solution {
         // dfs() 완료 시 maxArea 업데이트
         int m = grid.length;
         int n = grid[0].length;
-        
+
+        int maxArea = 0;
+
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
                 if(grid[i][j] == 0 || grid[i][j] == 2) continue;
@@ -23,7 +24,7 @@ class Solution {
     }
 
     public int dfs(int[][] grid, int m, int n, int x, int y) {
-        int sum = 1;
+        int area = 1;
         grid[x][y] = 2;
 
         for(int i=0; i<4; i++) {
@@ -33,9 +34,9 @@ class Solution {
             if(nx<0 || ny<0 || nx>=m || ny>=n) continue;
             if(grid[nx][ny]==0 || grid[nx][ny]==2) continue;
 
-            sum += dfs(grid, m, n, nx, ny);
+            area += dfs(grid, m, n, nx, ny);
         }
 
-        return sum;
+        return area;
     }
 }
