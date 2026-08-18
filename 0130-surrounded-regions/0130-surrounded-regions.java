@@ -1,4 +1,6 @@
 class Solution {
+
+    // 솔루션1: 통과 (visited, queue, isSide 변수 필요 -> 2pass 처리로 개선 해야함)
     public int[] dx = {1,-1,0,0};
     public int[] dy = {0,0,-1,1};
     public boolean isSide; // 가장자리 여부
