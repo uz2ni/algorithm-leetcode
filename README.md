@@ -13,6 +13,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0133-clone-graph](https://github.com/uz2ni/algorithm-leetcode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/uz2ni/algorithm-leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/uz2ni/algorithm-leetcode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0433-minimum-genetic-mutation](https://github.com/uz2ni/algorithm-leetcode/tree/master/0433-minimum-genetic-mutation) |
 ## Depth-First Search
@@ -113,6 +114,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0209-minimum-size-subarray-sum](https://github.com/uz2ni/algorithm-leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0228-summary-ranges](https://github.com/uz2ni/algorithm-leetcode/tree/master/0228-summary-ranges) |
+| [0229-majority-element-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0229-majority-element-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/uz2ni/algorithm-leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/uz2ni/algorithm-leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -143,6 +145,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0049-group-anagrams](https://github.com/uz2ni/algorithm-leetcode/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/uz2ni/algorithm-leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0229-majority-element-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Divide and Conquer
 |  |
@@ -164,6 +167,7 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/uz2ni/algorithm-leetcode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1267-count-servers-that-communicate](https://github.com/uz2ni/algorithm-leetcode/tree/master/1267-count-servers-that-communicate) |
 ## Quickselect
@@ -311,4 +315,5 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/uz2ni/algorithm-leetcode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
