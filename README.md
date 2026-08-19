@@ -16,6 +16,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0229-majority-element-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0433-minimum-genetic-mutation](https://github.com/uz2ni/algorithm-leetcode/tree/master/0433-minimum-genetic-mutation) |
+| [0621-task-scheduler](https://github.com/uz2ni/algorithm-leetcode/tree/master/0621-task-scheduler) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -119,6 +120,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0322-coin-change](https://github.com/uz2ni/algorithm-leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/uz2ni/algorithm-leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0621-task-scheduler](https://github.com/uz2ni/algorithm-leetcode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/uz2ni/algorithm-leetcode/tree/master/0695-max-area-of-island) |
 | [0909-snakes-and-ladders](https://github.com/uz2ni/algorithm-leetcode/tree/master/0909-snakes-and-ladders) |
 | [0934-shortest-bridge](https://github.com/uz2ni/algorithm-leetcode/tree/master/0934-shortest-bridge) |
@@ -147,6 +149,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0215-kth-largest-element-in-an-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/uz2ni/algorithm-leetcode/tree/master/0621-task-scheduler) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -159,6 +162,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/uz2ni/algorithm-leetcode/tree/master/0621-task-scheduler) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -169,6 +173,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0169-majority-element](https://github.com/uz2ni/algorithm-leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/uz2ni/algorithm-leetcode/tree/master/0621-task-scheduler) |
 | [1267-count-servers-that-communicate](https://github.com/uz2ni/algorithm-leetcode/tree/master/1267-count-servers-that-communicate) |
 ## Quickselect
 |  |
@@ -279,6 +284,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0011-container-with-most-water](https://github.com/uz2ni/algorithm-leetcode/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/uz2ni/algorithm-leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0621-task-scheduler](https://github.com/uz2ni/algorithm-leetcode/tree/master/0621-task-scheduler) |
 ## Bidirectional Search
 |  |
 | ------- |
