@@ -1,0 +1,69 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode sortList(ListNode head) {
+        if(head == null || head.next == null) return head;
+
+        ListNode mid = findMiddleAndSplit(head);
+
+        // 첫노드~mid 왼쪽노드 분할
+        ListNode left = sortList(head);
+        // mid~마지막노드 분할
+        ListNode right = sortList(mid);
+
+        // 병합
+        return merge(left, right);
+    }
+
+    public ListNode findMiddleAndSplit(ListNode head) {
+        // 노드 길이 카운팅
+        ListNode cur = head;
+        int cnt = 0;
+        while(cur != null) {
+            cnt++;
+            cur = cur.next;
+        }
+
+        // 앞쪽 절반의 마지막 노드까지 이동
+        ListNode prev = head;
+        for(int i=0; i<cnt/2-1; i++) {
+            prev = prev.next;
+        }
+
+        ListNode mid = prev.next;
+        prev.next = null; // 앞쪽 절반의 꼬리는 null        
+        return mid;
+    }
+
+    public ListNode merge(ListNode left, ListNode right) {
+        if(left == null) return right;
+        if(right == null) return left;
+        
+        ListNode start = new ListNode(-1);
+        ListNode tail = start;
+
+        // left, right 옮기면서 tail.next에 다음 값 연결
+        while(left != null && right != null) {
+            if(left.val > right.val) {
+                tail.next = right;
+                right = right.next;
+            }else {
+                tail.next = left;
+                left = left.next;
+            }
+                tail = tail.next;            
+        }
+
+        tail.next = (left != null) ? left : right;
+        
+        return start.next;
+    }
+}
