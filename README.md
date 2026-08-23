@@ -32,6 +32,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0230-kth-smallest-element-in-a-bst](https://github.com/uz2ni/algorithm-leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0417-pacific-atlantic-water-flow](https://github.com/uz2ni/algorithm-leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/uz2ni/algorithm-leetcode/tree/master/0695-max-area-of-island) |
+| [0743-network-delay-time](https://github.com/uz2ni/algorithm-leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/uz2ni/algorithm-leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0934-shortest-bridge](https://github.com/uz2ni/algorithm-leetcode/tree/master/0934-shortest-bridge) |
 | [1267-count-servers-that-communicate](https://github.com/uz2ni/algorithm-leetcode/tree/master/1267-count-servers-that-communicate) |
@@ -48,6 +49,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0417-pacific-atlantic-water-flow](https://github.com/uz2ni/algorithm-leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0433-minimum-genetic-mutation](https://github.com/uz2ni/algorithm-leetcode/tree/master/0433-minimum-genetic-mutation) |
 | [0695-max-area-of-island](https://github.com/uz2ni/algorithm-leetcode/tree/master/0695-max-area-of-island) |
+| [0743-network-delay-time](https://github.com/uz2ni/algorithm-leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/uz2ni/algorithm-leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0909-snakes-and-ladders](https://github.com/uz2ni/algorithm-leetcode/tree/master/0909-snakes-and-ladders) |
 | [0934-shortest-bridge](https://github.com/uz2ni/algorithm-leetcode/tree/master/0934-shortest-bridge) |
@@ -57,6 +59,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | ------- |
 | [0133-clone-graph](https://github.com/uz2ni/algorithm-leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/uz2ni/algorithm-leetcode/tree/master/0207-course-schedule) |
+| [0743-network-delay-time](https://github.com/uz2ni/algorithm-leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/uz2ni/algorithm-leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Linked List
 |  |
@@ -173,6 +176,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0215-kth-largest-element-in-an-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/uz2ni/algorithm-leetcode/tree/master/0621-task-scheduler) |
+| [0743-network-delay-time](https://github.com/uz2ni/algorithm-leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/uz2ni/algorithm-leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Bucket Sort
 |  |
@@ -343,5 +347,10 @@ leetcode 알고리즘 풀이 공간 🌟
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/uz2ni/algorithm-leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/uz2ni/algorithm-leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/uz2ni/algorithm-leetcode/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
