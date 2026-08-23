@@ -12,7 +12,7 @@ class Solution {
     public ListNode sortList(ListNode head) {
         if(head == null || head.next == null) return head;
 
-        ListNode mid = findMiddleAndSplit(head);
+        ListNode mid = findMiddleAndSplit2(head);
 
         // 첫노드~mid 왼쪽노드 분할
         ListNode left = sortList(head);
@@ -23,6 +23,7 @@ class Solution {
         return merge(left, right);
     }
 
+    // 중앙값 찾기1 : 노드 길이 카운팅 후 중간까지 재탐색, O(2N)
     public ListNode findMiddleAndSplit(ListNode head) {
         // 노드 길이 카운팅
         ListNode cur = head;
@@ -40,6 +41,19 @@ class Solution {
 
         ListNode mid = prev.next;
         prev.next = null; // 앞쪽 절반의 꼬리는 null        
+        return mid;
+    }
+
+    // 중앙값 찾기2 : 투포인터 slow/fast, O(N)
+    public ListNode findMiddleAndSplit2(ListNode head) {
+        ListNode slow = head, fast = head.next;
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        
+        ListNode mid = slow.next;
+        slow.next = null;
         return mid;
     }
 
