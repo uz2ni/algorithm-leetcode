@@ -1,5 +1,6 @@
 class Solution {
-    public int minPathSum(int[][] grid) {
+    // bottom-up
+    public int minPathSum2(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
         int[][] dp = new int[m][n];
@@ -18,33 +19,33 @@ class Solution {
 
         return dp[m-1][n-1];
     }
-    public int minPathSum2(int[][] grid) {
+    
+    // top-down
+    public int minPathSum(int[][] grid) {
         // 경로 기준 : 오른쪽, 아래 방향으로 갈수 없을 때 까지 이동해서 끝나는 경로
         // 리턴 : 최소 경로 값의 합
         // 부분을 기억하면 전체의 일부가 될 수 있나?
-
         int m = grid.length;
         int n = grid[0].length;
         int[][] memory = new int[m][n];
-        for(int i=0; i<memory.length; i++) {
-            Arrays.fill(memory[i], Integer.MAX_VALUE);
+        for(int i=0; i<m; i++) {
+            Arrays.fill(memory[i], -1);
         }
-        memory[0][0] = grid[0][0];
-        
-        int answer = dp(grid, m, n, 0, 0, memory);
-        return answer;
+        return dp(grid, m-1, n-1, memory);
     }
     
-    public int dp(int[][] grid, int m, int n, int x, int y, int[][] memory) {
+    public int dp(int[][] grid, int x, int y, int[][] memory) {
         
-        // 범위 벗어나면 리턴
-        if(x < 0 || y < 0 || x >= m || y >= n) return 0;
-        // 도착점 리턴
-        if(x == m-1 && n == n-1) return 
+        // 범위 벗어나면 리턴 (점화식(최소값찾기)에서 선택 안되도록 큰값 지정)
+        if(x < 0 || y < 0) return Integer.MAX_VALUE;
+        // 시작점 리턴
+        if(x == 0 && y == 0) return grid[0][0];
+        // 계산된 값
+        if(memory[x][y] >= 0) return memory[x][y];
         
-        // 점화식 : Math.min(아래 저장값, 오른 저장값)+grid[x][y]
-        memory[x][y] = Math.min(dp(grid, m, n, x+1,y, memory), dp(grid, m, n, x, y+1, memory)) + grid[x][y];
-
-        return Math.min(dp(grid, m, n, x, y-1, memory), dp(grid, m, n, x-1, y, memory)) + grid[x][y];
+        // 점화식 : Math.min(왼, 위)+grid[x][y]
+        memory[x][y] = Math.min(dp(grid, x, y-1, memory), dp(grid, x-1, y, memory)) + grid[x][y];
+        
+        return memory[x][y];
     }
 }
