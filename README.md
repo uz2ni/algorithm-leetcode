@@ -119,6 +119,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0130-surrounded-regions](https://github.com/uz2ni/algorithm-leetcode/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/uz2ni/algorithm-leetcode/tree/master/0134-gas-station) |
+| [0136-single-number](https://github.com/uz2ni/algorithm-leetcode/tree/master/0136-single-number) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/uz2ni/algorithm-leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/uz2ni/algorithm-leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -307,6 +308,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | ------- |
 | [0067-add-binary](https://github.com/uz2ni/algorithm-leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/uz2ni/algorithm-leetcode/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/uz2ni/algorithm-leetcode/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/uz2ni/algorithm-leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/uz2ni/algorithm-leetcode/tree/master/0191-number-of-1-bits) |
 ## Greedy
