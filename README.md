@@ -172,6 +172,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0053-maximum-subarray](https://github.com/uz2ni/algorithm-leetcode/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/uz2ni/algorithm-leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/uz2ni/algorithm-leetcode/tree/master/0169-majority-element) |
+| [0190-reverse-bits](https://github.com/uz2ni/algorithm-leetcode/tree/master/0190-reverse-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/uz2ni/algorithm-leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
@@ -305,6 +306,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | ------- |
 | [0067-add-binary](https://github.com/uz2ni/algorithm-leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/uz2ni/algorithm-leetcode/tree/master/0078-subsets) |
+| [0190-reverse-bits](https://github.com/uz2ni/algorithm-leetcode/tree/master/0190-reverse-bits) |
 ## Greedy
 |  |
 | ------- |
