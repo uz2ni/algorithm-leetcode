@@ -228,6 +228,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0077-combinations](https://github.com/uz2ni/algorithm-leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/uz2ni/algorithm-leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/uz2ni/algorithm-leetcode/tree/master/0079-word-search) |
+| [0089-gray-code](https://github.com/uz2ni/algorithm-leetcode/tree/master/0089-gray-code) |
 | [0113-path-sum-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0113-path-sum-ii) |
 ## Matrix
 |  |
@@ -285,6 +286,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0062-unique-paths](https://github.com/uz2ni/algorithm-leetcode/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/uz2ni/algorithm-leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/uz2ni/algorithm-leetcode/tree/master/0070-climbing-stairs) |
+| [0089-gray-code](https://github.com/uz2ni/algorithm-leetcode/tree/master/0089-gray-code) |
 | [0189-rotate-array](https://github.com/uz2ni/algorithm-leetcode/tree/master/0189-rotate-array) |
 ## Dynamic Programming
 |  |
@@ -311,6 +313,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | ------- |
 | [0067-add-binary](https://github.com/uz2ni/algorithm-leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/uz2ni/algorithm-leetcode/tree/master/0078-subsets) |
+| [0089-gray-code](https://github.com/uz2ni/algorithm-leetcode/tree/master/0089-gray-code) |
 | [0136-single-number](https://github.com/uz2ni/algorithm-leetcode/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/uz2ni/algorithm-leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/uz2ni/algorithm-leetcode/tree/master/0191-number-of-1-bits) |
