@@ -1,25 +1,24 @@
 class Solution {
-    // stack 이용 문제
     public String simplifyPath(String path) {
-        
-        // 슬래시(/)로 경로를 쪼개서 검사하면서 stack에 넣고 빼기
-        String[] paths = path.split("/");
-        Deque<String> stack = new ArrayDeque<>();
-        
-        for(int i=0; i<paths.length; i++) {
-            if(paths[i].equals("") || paths[i].equals(".")) continue;
-            else if(paths[i].equals("..")) {
-                if(!stack.isEmpty()) stack.pop();
-            } else stack.push(paths[i]);
-        }
-       
-        if(stack.isEmpty()) return "/";
-        
+
+        String[] splitStr = path.split("/");
         StringBuilder sb = new StringBuilder();
-        while(!stack.isEmpty()) {
-            sb.insert(0, '/'+stack.pop());
+
+        for(String s : splitStr) {
+            if(s.equals("..")) {
+                // sb에서 뒤에서 첫번째 슬래시까지 삭제 (어떻게 하지?)
+                int idx = sb.lastIndexOf("/");
+                if(idx != -1) {
+                    sb.setLength(idx); // index 부터 잘라냄
+                }
+            }else if(s.equals(".") || s.equals("")) { // ".", "" 이면 생략
+            }else {
+                sb.append("/" + s);
+            }
+
         }
 
-        return sb.toString();
+        return sb.toString().length() == 0 ? "/" : sb.toString();
+        
     }
 }
