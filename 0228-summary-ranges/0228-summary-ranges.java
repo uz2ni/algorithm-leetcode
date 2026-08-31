@@ -1,40 +1,20 @@
 class Solution {
     public List<String> summaryRanges(int[] nums) {
-        // 연속 구간이면 묶어서 반환(3->5), 하나뿐이면 숫자만 반환(1)
-        // 0,1,2,4,5,7 : 0->2, 4->5, 7
-
         List<String> answers = new ArrayList<>();
-        List<Integer> temps = new ArrayList<>();
-        
-        for(int i=0; i<nums.length; i++) {
-            if(temps.size() == 0) {
-                temps.add(nums[i]);
-            }
-            
-            else if((temps.get(temps.size()-1)+1) == nums[i]) {
-                temps.add(nums[i]);
-            }
-            
-            else {
-                if(temps.size() == 1) { 
-                    answers.add(String.valueOf(temps.get(0)));
-                    temps.clear();
-                    temps.add(nums[i]);
-                }else {                    
-                    String str = temps.get(0) + "->" + temps.get(temps.size()-1);
-                    answers.add(str);
-                    temps.clear();
-                    temps.add(nums[i]);
-                }
-            }
-        }
 
-        if(!temps.isEmpty()) {
-            if(temps.size() == 1) {
-                answers.add(String.valueOf(temps.get(0)));
+        int left = 0, right = 0;
+        while(right < nums.length) {
+            // right 다음 이동 가능하고, 연속 구간이라면 -> right++
+            if(right+1 < nums.length && (nums[right+1]-nums[right] == 1)) {
+                right++;
             }else {
-                    String str = temps.get(0) + "->" + temps.get(temps.size()-1);
-                    answers.add(str);
+                if(left == right) {
+                    answers.add(String.valueOf(nums[left]));
+                }else {
+                    answers.add(nums[left] + "->" + nums[right]);
+                }
+                right++;
+                left = right;
             }
         }
 
