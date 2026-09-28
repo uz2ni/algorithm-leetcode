@@ -31,6 +31,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0200-number-of-islands](https://github.com/uz2ni/algorithm-leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/uz2ni/algorithm-leetcode/tree/master/0207-course-schedule) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/uz2ni/algorithm-leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/uz2ni/algorithm-leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/uz2ni/algorithm-leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/uz2ni/algorithm-leetcode/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/uz2ni/algorithm-leetcode/tree/master/0743-network-delay-time) |
@@ -269,6 +270,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0113-path-sum-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0113-path-sum-ii) |
 | [0199-binary-tree-right-side-view](https://github.com/uz2ni/algorithm-leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/uz2ni/algorithm-leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/uz2ni/algorithm-leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -276,6 +278,7 @@ leetcode 알고리즘 풀이 공간 🌟
 | [0113-path-sum-ii](https://github.com/uz2ni/algorithm-leetcode/tree/master/0113-path-sum-ii) |
 | [0199-binary-tree-right-side-view](https://github.com/uz2ni/algorithm-leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/uz2ni/algorithm-leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/uz2ni/algorithm-leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 ## Sliding Window
 |  |
 | ------- |
@@ -391,4 +394,12 @@ leetcode 알고리즘 풀이 공간 🌟
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/uz2ni/algorithm-leetcode/tree/master/0056-merge-intervals) |
+## Binary Lifting
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/uz2ni/algorithm-leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Lowest Common Ancestor
+|  |
+| ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/uz2ni/algorithm-leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 <!---LeetCode Topics End-->
