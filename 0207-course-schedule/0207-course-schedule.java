@@ -1,39 +1,22 @@
 class Solution {
-    // 풀이 실패
-    public boolean canFinish1(int numCourses, int[][] prerequisites) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for(int[] p : prerequisites) {
-            if(map.isEmpty()) {
-                map.put(p[1],p[0]);
-                continue;
-            }
-            if(map.containsKey(p[0])) {
-                return false;
-            }
-            map.put(p[1],p[0]);
-        }
-        
-        return true;
-    }
-
-    // 풀이1 : DFS 그래프 사이클 판별
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        // graph 인접리스트
-        List<List<Integer>> graph = new ArrayList<>();
+        // 인접리스트화
+        List<List<Integer>> list = new ArrayList<>();
         for(int i=0; i<numCourses; i++) {
-            graph.add(new ArrayList<>());
-        } 
-        for(int i=0; i<prerequisites.length; i++) {
-            graph.get(prerequisites[i][1]).add(prerequisites[i][0]);
+            list.add(new ArrayList<>());
         }
-        
-        int[] state = new int[numCourses]; // 0 미방문, 1 방문중, 2 완료
+        for(int i=0; i<prerequisites.length; i++) {
+            int to = prerequisites[i][0];
+            int from = prerequisites[i][1];
+            list.get(from).add(to);
+        }
 
-        // 모든 노드를 시작으로 순회하며 사이클 체크하는 이유 : 그래프 하나로 연결 아닐수도 있어서
-        for(int i=0; i<numCourses; i++) { 
-            if(state[i] == 0) {
-                if(hasCycle(graph, state, i)) {
-                    return false;
+        // dfs 사이클 찾기
+        int[] visited = new int[numCourses]; // 0:미방문, 1:방문중, 2:방문완료
+        for(int i=0; i<numCourses; i++) {
+            if(visited[i] == 0) {
+                if(dfs(list, i, visited)) {
+                    return false; // 사이클 존재
                 }
             }
         }
@@ -41,18 +24,23 @@ class Solution {
         return true;
     }
 
-    public boolean hasCycle(List<List<Integer>> graph, int[] state, int node) {
-        state[node] = 1; // 방문중 표시
-        for(int nxt : graph.get(node)) {
-            if(state[nxt] == 1) { // 방문중인 노드 또 만남 -> 사이클
-                return true;
-            }
-            if(state[nxt] == 0 && hasCycle(graph, state, nxt)) { // 미방문이면 다음 노드부터 사이클 있는지 판별
+    public boolean dfs(List<List<Integer>> list, int node, int[] visited) {
+        if(visited[node] == 1) {
+            return true; // 탐색중 노드 재방문인 경우 사이클임
+        }
+        if(visited[node] == 2) {
+            return false; // 이미 방문한 노드이면 패스
+        }
+
+        visited[node] = 1;
+
+        for(int n : list.get(node)) {
+            if(dfs(list, n, visited)) {
                 return true;
             }
         }
 
-        state[node] = 2; // 노드 방문완료. 안전함 확정
+        visited[node] = 2;
         return false;
     }
 }
