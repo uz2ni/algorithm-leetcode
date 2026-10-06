@@ -7,17 +7,19 @@ class Solution {
     }
 
     public void dfs(String s, int index, int count, List<String> path) {
-        if(count == 4 && index == s.length()) {
-            String answer = "";
-            for(int i=0; i<path.size(); i++) {
-                if(i == 0) {
-                    answer += path.get(i);
-                }else {
-                    answer += ("." + path.get(i));
+        if(count == 4) {
+            if(index == s.length()) {
+                String answer = "";
+                for(int i=0; i<path.size(); i++) {
+                    if(i == 0) {
+                        answer += path.get(i);
+                    }else {
+                        answer += ("." + path.get(i));
+                    }
                 }
+                answers.add(answer);
             }
-            answers.add(answer);
-            return;
+            return; // 구간 4개되면 정답여부 상관없이 무조건 종료
         }
 
         for(int i=1; i<=3; i++) { // 한 구간의 문자 길이 1~3
@@ -32,7 +34,7 @@ class Solution {
             if(Integer.parseInt(subPath) > 255) break;
 
             path.add(subPath);
-            dfs(s, index+i, count+1, path);
+            dfs(s, index+i, count+1, path); // index: 아직 사용하지 않은 시작 위치, count : 구간 개수 체크를 위한 카운팅
             path.remove(path.size()-1);
         }
     }
