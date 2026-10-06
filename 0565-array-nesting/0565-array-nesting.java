@@ -3,8 +3,9 @@ class Solution {
 
     // 타임아웃
     public int arrayNesting1(int[] nums) {
+        Set set = new HashSet<>();
         for(int i=0; i<nums.length; i++) {
-            dfs1(nums, i, new HashSet<>());
+            dfs1(nums, i, set);
         }
         return maxLength;
     }
